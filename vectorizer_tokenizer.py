@@ -8,7 +8,7 @@ vocab = {'refund', 'document' , 'due' , 'reminder', 'cancel' ,
 vocab = sorted(list(vocab))
 
 token_ = {}
-df = pd.read_csv('annoated_9.csv')
+df = pd.read_csv('test_data_raw.csv')
 
 
 def tokenize_and_vectorize(subject):
@@ -40,4 +40,4 @@ new_df = df
 new_df['token'] = all_tokens
 new_df['vector'] = all_vectors
 
-new_df.to_csv('vt.csv')
+new_df.to_csv('test_data.csv')
