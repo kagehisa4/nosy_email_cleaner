@@ -1,4 +1,4 @@
-# This is an email unwanted message filter app.
+# This is nosy email cleaner perceptron.
 
 * Create a hard-coded system
 * Train a linear classifier perceptron
