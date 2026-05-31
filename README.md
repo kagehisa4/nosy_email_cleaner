@@ -5,8 +5,7 @@
 
 
 
-\## Problems in the imported dataset:
+## Problems in the imported dataset:
 
-* !\[preprocessing\_1](images/preprocessing\_1.png)
-* 
+* ![preprocessing\_1](images/preprocessing\_1.png)
 
