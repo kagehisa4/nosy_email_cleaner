@@ -41,4 +41,4 @@ new_df['label'] = new_df['label'].apply(
     else 0
 )
 
-new_df.to_csv('h.csv')
+new_df.to_csv('training_data.csv')
