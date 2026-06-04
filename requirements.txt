@@ -1,0 +1,6 @@
+numpy
+pandas
+ast
+re
+decode_header from email.header
+pickle
