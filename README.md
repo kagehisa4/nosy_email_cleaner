@@ -4,7 +4,11 @@
 * Train a linear classifier perceptron
 
 
-
+## INSTALLATION
+```bash
+git clone https://github.com/kagehisa4/nosy_email_cleaner
+cd train.py
+```
 ## Problems in the imported dataset (before preprocessing):
 
 1. ![preprocessing\_1](images/preprocessing\_1.png)
