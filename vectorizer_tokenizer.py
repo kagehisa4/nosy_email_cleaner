@@ -1,11 +1,8 @@
 import pandas as pd
 import  re
-vocab = {'refund', 'document' , 'due' , 'reminder', 'cancel' ,
- 'code', 'password', 'today', 'delivery', 'cut', 'invitation', 'launch',
- 'free', 'ordered', 'hir', 'ship', 'update', 'review', 'save', '%'}
- #20 words vocab
-
-vocab = sorted(list(vocab))
+vocab = ['%', 'cancel', 'code', 'cut', 'delivery', 'document', 'due', 'free', 'hir',
+'invitation', 'launch', 'ordered', 'password', 'refund', 'reminder',
+'review', 'save', 'ship', 'today', 'update']
 
 token_ = {}
 df = pd.read_csv('test_data_raw.csv')
