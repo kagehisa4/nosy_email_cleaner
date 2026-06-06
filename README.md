@@ -11,7 +11,7 @@
 
 ## Pipeline Model
 ```mermaid
-flowchart TD
+flowchart LR
   A [Raw Emails]
 ```
 
