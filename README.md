@@ -14,10 +14,10 @@
 flowchart LR
   A[Raw Emails] --> B[Tokenization]
   B --> C[Bag of Words]
-  C ---> [Vectorize]
-  D --> [Perceptron Classifier]
-  E --> [Nosy/Clean prediction]
-  F --> [1 click cleanup]
+  C --> D[Vectorize]
+  D ---> E[Perceptron Classifier]
+  E --> F[Nosy/Clean prediction]
+  F --> G[1 click cleanup]
 ```
 
 ## INSTALLATION
