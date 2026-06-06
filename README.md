@@ -26,10 +26,17 @@ git clone https://github.com/kagehisa4/nosy_email_cleaner
 cd train.py
 ```
 
-## Performance Metrics
+# Performance Metrics
 
+| Metric | Value |
+|---------|--------|
+| Accuracy | 90% |
+| Precision | 88.8% |
+| Recall | 80% |
+| F1 Score | 84,2% |
 
-# This is how I've done preprocessing - problems and remedies-
+# Confusion Matrix
+
 
 ## Problems in the imported dataset (before preprocessing):
 
