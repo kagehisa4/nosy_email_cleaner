@@ -1,24 +1,28 @@
 # This is nosy email cleaner perceptron.
 
+## Project Overview
 * An Email Cleaner that identifies and filters nosy, low-value emails that clutter users’ inboxes using a Bag-of-Words representation. It is designed for future expansion with larger datasets, advanced NLP techniques and personalized email filtering.
 * Trained a Perceptron Classifier to learn word importance from data, enabling more robust filtering than hard-coded keyword rules.
 
-## Steps used To Train the perceptron
-### This approach is based on tokenizing & vectorizing EMAIL subjects.
-1. All emails undergo preprocessing to extract clean sender email ids, subject.
-2. Label the emails (you can also label them via GMAIL APP) and import lables using IMAP.
-3. Use a vocabulary of notorious & clean words to tokenize email subjects.
-4. Vectorize the tokens and train your model on the TEST DATA.
-5. TEST DATA - equal number of positive and negative emails. (class-balance to avoid classifier bias.)
-6. TEST DATA - my emails ~ 1000 in number all tokenized and vectorized.  
-7. Test the model and compare accuracy.
-8. You can set a threshold to create three CLASSES- 1. Clean (look urgent mails) 2. Normal (look when free.) 3. Nosy (emails  that need to trashed.)
+## Dataset
+- Training Emails: 20
+- Classes: Nosy, Clean
+- Balanced Dataset: Yes
+
+## Pipeline Model
+```mermaid
+flowchart TD
+  A [Raw Emails]
+```
 
 ## INSTALLATION
 ```bash
 git clone https://github.com/kagehisa4/nosy_email_cleaner
 cd train.py
 ```
+
+## Performance Metrics
+
 
 # This is how I've done preprocessing - problems and remedies-
 
