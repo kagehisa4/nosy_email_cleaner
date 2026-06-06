@@ -1,7 +1,7 @@
 # This is nosy email cleaner perceptron.
 
-* Create a hard-coded system
-* Train a linear classifier perceptron using BoW approach.
+* An Email Cleaner that identifies and filters nosy, low-value emails that clutter users’ inboxes using a Bag-of-Words representation. It is designed for future expansion with larger datasets, advanced NLP techniques and personalized email filtering.
+* Trained a Perceptron Classifier to learn word importance from data, enabling more robust filtering than hard-coded keyword rules.
 
 ## Steps used To Train the perceptron
 ### This approach is based on tokenizing & vectorizing EMAIL subjects.
