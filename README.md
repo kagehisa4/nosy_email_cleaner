@@ -12,7 +12,8 @@
 ## Pipeline Model
 ```mermaid
 flowchart LR
-  A [Raw Emails]
+  A[Raw Emails] --> B[Tokenization]
+  B --> C[Bag of Words]
 ```
 
 ## INSTALLATION
