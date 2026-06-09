@@ -10,7 +10,7 @@ class Perceptron(object):
         self.n_iter = n_iter
 
     def fit(self, X, y):
-        self.w_ = np.zeros(1+ X.shape[1]) # Initilize zero weights matrix
+        self.w_ = np.zeros(1+ X.shape[1]) # Initialize zero weights matrix
         self.error_ = []
 
         for _ in range(self.n_iter):
